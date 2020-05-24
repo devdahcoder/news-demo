@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2|Roboto|Ubuntu|Ubuntu+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: aqua;
+}
+
+
+.hero-bg {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    padding: 1em 0;
+    font-size: 1rem;
+}
+
+header h1 span {
+    border: 1px solid black;
+    border-radius: .3em;
+    background-color: black;
+    color: white;
+    padding: .1em;
+}
+
+
+main .card {
+    background-color: white;
+    border-radius: .3em;
+    width: 100%;
+    padding: 1.5em;
+    margin: 1em 0;
+}
+
+
+main .card h6,
+main .card h2,
+main .card p,
+main .card button {
+    margin-bottom: 1em;
+}
+
+main .card h2 {
+    line-height: 1.3em;
+}
+
+main .card h2 span {
+    border: 1px solid black;
+    border-radius: .3em;
+    background-color: black;
+    color: white;
+    padding: .1em;
+}
+
+main .card p {
+    line-height: 1.5em;
+}
+
+main .card button {
+    width: 8em;
+    height: 30px;
+    border-radius: .5em;
+    border: none;
+    outline: none;
+    background-color: lightgrey;
+}
+
+
+/*
